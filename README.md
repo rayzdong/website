@@ -14,13 +14,13 @@ This is a sample website based on django
 
 github协作开发步骤：
 ===================
-1、先在github上面fork此项目到自己的github账号里面<br>
+##### 1、先在github上面fork此项目到自己的github账号里面<br>
 
-2、在本地电脑上面clone一份fork到自己github账号的项目<br>
+##### 2、在本地电脑上面clone一份fork到自己github账号的项目<br>
 
-3、在本地电脑上，基于第二步中clone的项目建立一个dev的branch分支，命令：git branch dev<br>
+##### 3、在本地电脑上，基于第二步中clone的项目建立一个dev的branch分支，命令：git branch dev<br>
 
-4、所有的代码编写和修改都在dev分支中进行<br>
+##### 4、所有的代码编写和修改都在dev分支中进行<br>
 
 5、代码编写或修改完成后，使用git push origin dev，此命令有两个作用:
 * ①在远程的github上对应的项目中创建dev分支<br>
