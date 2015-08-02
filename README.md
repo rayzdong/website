@@ -10,7 +10,7 @@ This is a sample website based on django
 
 github协作开发步骤：
 ===================
-##### 1、先在github上面fork此项目到自己的github账号里面<br>
+##### 1、先在github上面fork此项目到自己的github账号里面
 
 ##### 2、在本地电脑上面clone一份fork到自己github账号的项目<br>
 
