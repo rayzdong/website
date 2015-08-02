@@ -22,11 +22,11 @@ github协作开发步骤：
 
 4、所有的代码编写和修改都在dev分支中进行<br>
 
-5、代码编写或修改完成后，使用git push origin dev，此命令有两个作用：<br>
+5、代码编写或修改完成后，使用git push origin dev，此命令有两个作用:
 * ①在远程的github上对应的项目中创建dev分支<br>
 * ②把本地的dev分支的修改提交到github的dev分支中<br>
 
-6、本地master的代码合并，此步骤之前要先做完以下的①和②的步骤<br>
+6、本地master的代码合并，此步骤之前要先做完以下的①和②的步骤
 * ①切换到本地master分支，命令为git checkout master<br>
 * ②获取远程github中master的最新修改<br>
   * git fetch origin master<br>
