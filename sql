@@ -21,5 +21,5 @@ o Y to reload the privilege tables
 
 3、建website库和添加Mysql用户
 mysql> create database website character set utf8 collate utf8_bin;
-mysql> grant all on website.* to website@'*' identified by 'admin123';
+mysql> grant all on website.* to 'website'@'%' identified by 'admin123';
 mysql> flush privileges;
