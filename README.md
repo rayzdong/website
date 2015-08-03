@@ -21,7 +21,7 @@ github协作开发步骤：
 ##### 6、当github上的dev分支更新之后，需要在github上的dev分支中申请pull request请求更新，这样github中的master分支才能与dev分支保持同步
 
 ##### 7、本地master的代码更新有两种办法
-一、与远程origin同步，推荐此方法
+一、与远程origin同步，推荐此方法<br>
 ①切换到本地master分支，命令为git checkout master<br>
 ②获取远程github中master的最新修改<br>
 　git fetch origin master<br>
