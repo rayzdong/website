@@ -23,3 +23,7 @@ o Y to reload the privilege tables
 mysql> create database website character set utf8 collate utf8_bin;
 mysql> grant all on website.* to 'website'@'%' identified by 'admin123';
 mysql> flush privileges;
+
+4、修改Model后可以在不影响现有数据的前提下重建表结构
+# python manage.py makemigrations
+# python manage.py migrate
