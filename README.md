@@ -18,13 +18,15 @@ github协作开发步骤：
 ①在远程的github上对应的项目中创建dev分支<br>
 ②把本地的dev分支的修改提交到github的dev分支中<br>
 
-##### 6、本地master的代码合并，此步骤之前要先做完以下的①和②的步骤
+##### 6、当github上的dev分支更新之后，需要在github上的dev分支中申请pull request请求更新，这样github中的master分支才能与dev分支保持同步
+
+##### 7、本地master的代码更新有两种办法
+一、与远程origin同步，推荐此方法<br>
 ①切换到本地master分支，命令为git checkout master<br>
 ②获取远程github中master的最新修改<br>
 　git fetch origin master<br>
 　git merge origin/master<br>
-③当本地的master和远程的origin master同步完成之后才可以合并本地dev分支的修改，命令：git merge dev
+③当本地的master和远程的origin master同步完成之后才能在本地master分支进行下一次的push操作<br>
+二、也可以合并本地dev分支的修改，命令：git merge dev
 
-##### 7、然后本地master中使用git push origin master，把本地master修改提交到远程的origin master中，或者是在github上把origin master和origin dev做合并也能达到此效果，在github上如果远程的dev分支有修改会自动提醒要求合并
-
-##### 8、最后在github的master上可以申请pull request请求更新，在收到你的pull request后，我会合并到此项目的最终版本里面（前提是你在第一步中一定是fork了我的项目）
+##### 8、最后在你自己github上可以申请pull request请求，把修改的部分请求合并到被fork的源项目中去，在收到你的pull request后，源作者会根据情况来确定要不要合并到此项目的source版本里面
