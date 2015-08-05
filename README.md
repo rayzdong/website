@@ -29,4 +29,4 @@ github协作开发步骤：
 ③当本地的master和远程的origin master同步完成之后才能在本地master分支进行下一次的push操作<br>
 二、也可以合并本地dev分支的修改，命令：git merge dev
 
-##### 8、最后在你自己github的master上可以申请pull request请求更新，在收到你的pull request后，我会合并到此项目的最终版本里面（前提是你在第一步中一定是fork了我的项目）
+##### 8、最后在你自己github上可以申请pull request请求，把修改的部分请求合并到被fork的源项目中去，在收到你的pull request后，源作者会根据情况来确定要不要合并到此项目的source版本里面
